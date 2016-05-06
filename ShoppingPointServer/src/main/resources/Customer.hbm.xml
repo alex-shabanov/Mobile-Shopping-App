@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+    <class name="org.admin.pkg.ShoppingPointServer.models.Customer" lazy="false" table="CUSTOMER">
+  
+        <id name="customerIdPrimaryKey" type="string" unsaved-value="null" >
+            <column name="CUSTOMER_ID_PRIMARY_KEY" sql-type="char(36)" not-null="true"/>
+            <generator class="org.hibernate.id.UUIDGenerator"/>
+        </id>
+        
+        <property name="firstname">
+            <column name="FIRSTNAME" sql-type="text" not-null="true"/>
+        </property>
+        
+        <property name="lastname">
+            <column name="LASTNAME" sql-type="text" not-null="true"/>
+        </property>
+        
+        <property name="address">
+            <column name="ADDRESS" sql-type="text" not-null="true"/>
+        </property>
+
+		<property name="city">
+            <column name="CITY" sql-type="text" not-null="true"/>
+        </property>
+        
+        <property name="country">
+            <column name="COUNTRY" sql-type="text" not-null="true"/>
+        </property>
+                   
+        <property name="areacode">
+            <column name="AREACODE" sql-type="text" not-null="true"/>
+        </property>
+        
+        <property name="email">
+            <column name="EMAIL" sql-type="text" not-null="true"/>
+        </property>
+        
+        <property name="phonenumber">
+            <column name="PHONENUMBER" sql-type="text" not-null="true"/>
+        </property>
+        
+        <property name="username">
+            <column name="USERNAME" sql-type="text" not-null="true"/>
+        </property>
+        
+        <property name="customerid">
+            <column name="CUSTOMERID" sql-type="text" not-null="true"/>
+        </property>
+        
+        <property name="counter">
+            <column name="COUNTER" sql-type="integer" not-null="true"/>
+        </property>
+        
+        <property name="resetTime" type="timestamp">
+            <column name="RESET_TIME" sql-type="timestamp" not-null="true" />
+        </property>
+           
+        <set name="customerorders" table="CUSTOMERORDERS" lazy="false" cascade="all">
+    		<key column="CUSTOMER_ID_FK" not-null="false"/>
+    		<one-to-many class="org.admin.pkg.ShoppingPointServer.models.CustomerOrders"/>
+		</set>
+		      
+    </class>
+</hibernate-mapping>

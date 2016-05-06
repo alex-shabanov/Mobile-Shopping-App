@@ -1,0 +1,281 @@
+@CHARSET "ISO-8859-1";
+
+#viewItemsByCategoryTypeForm {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+#viewSpecificItemForm {
+	margin-left: 30px;
+	margin-top: 40px;
+}
+
+#viewItemsCategoryLink {
+	color: #66ffff;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#viewItemsCategoryLink:hover {
+	text-decoration: underline;
+}
+
+#viewSpecificItemLink {
+	color: #66ffff;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 50px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#viewSpecificItemLink:hover {
+	text-decoration: underline;
+}
+
+#viewProductForm {
+	margin-top: 20px;
+}
+
+#viewItemCategoryText {
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+#viewItemTypeNameText {
+	margin-left: 15px;
+	margin-top: 15px;
+}
+#viewItemSpecificNameText {
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+#viewItemNumberText {
+	margin-left: 15px;
+	margin-top:15px;
+}
+
+#viewItemCategoryMenu {
+	margin-left: 203px;
+    margin-top: -33px;
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #5C7A99;
+    color: black;   
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#viewItemType {
+	width: 230px;
+    height: 30px;  
+    margin-left: 45px;
+    margin-top: 7px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#viewItemsType {
+	width: 230px;
+    height: 30px;  
+    margin-left: 38px;
+    margin-top: 7px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+#viewItemsType:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+#viewItemType:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#viewItemSpecificName {
+	width: 230px;
+    height: 30px;  
+    margin-left: 45px;
+    margin-top: 7px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#viewItemSpecificName:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#viewItemNumber {
+	width: 230px;
+    height: 30px;  
+    margin-left: 45px;
+    margin-top: 7px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#viewItemNumber:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#viewItemBtn {
+	position: absolute; 
+	margin-left: 480px;
+    margin-top: -30px;
+    width: 200px;
+    height: 30px;   
+    background: #c2d6d6;
+    border: 3px solid;
+    border-radius: 7px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    color: black;   
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#viewItemCategoryBtn {
+	position: absolute; 
+	margin-left: 480px;
+    margin-top: -32px;
+    width: 200px;
+    height: 30px;   
+    background: #c2d6d6;
+    border: 3px solid;
+    border-radius: 7px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    color: black;   
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#viewItemListScreen {
+	margin-left: 15px;
+    margin-top: 130px;
+	border-radius: 5px;
+    border: 2.5px solid #ff6600;
+    padding: 20px;
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+	background-color: #94b8b8;
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+#viewItemListScreen h4 { display: inline; }
+
+#viewSingleItemScreen {
+	margin-left: 10px;
+    margin-top: 220px;
+    position: absolute;
+    border-top: 3px solid #ff6600;
+    padding: 0px;
+    width: 600px;
+}
+#itemSingleCategoryText {
+	margin-left: 3px;
+	margin-top: 15px;
+}
+#itemSingleTypeText {
+	margin-left: 3px;
+	margin-top: 15px;
+}
+#itemSingleGeneralNameText{
+	margin-left: 3px;
+	margin-top: 15px;
+}
+#itemSingleSpecificNameText{
+	margin-left: 3px;
+	margin-top: 15px;
+}
+#itemSingleNumberText{
+	margin-left: 3px;
+	margin-top: 15px;
+}
+#itemSingleShortDescrText {
+	margin-left: 3px;
+	margin-top: 15px;
+}
+#itemSingleLongDescrText {
+	margin-left: 3px;
+	margin-top: 15px;
+}
+#itemSingleQuantityText {
+	margin-left: 3px;
+	margin-top: 15px;
+}
+#itemSinglePriseText {
+	margin-left: 3px;
+	margin-top: 15px;
+}
+
+#productItemsTableViewList {
+	col-width: 130px;
+}
+#viewItemListCategory {
+	margin-left: 50px;
+}
+#viewItemListType {
+	margin-left: 100px;
+}
+#viewItemListSpecificName {
+	margin-left: 150px;
+}
+#tableImageListView {
+	border: 3px solid #5d8989;
+	border-radius: 3px;
+}
+#databaseImage {
+	margin-left: 460px;
+	margin-top: -311px;
+    position: absolute;
+    border: 5px solid #5d8989;
+	border-radius: 3px;
+}
+
+#viewOrdersListScreen {
+	margin-left: 20px;
+    margin-top: 20px;
+	border-radius: 5px;
+    border: 2.5px solid #ff6600;
+    padding: 20px;
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+	background-color: #94b8b8;
+    overflow-x: auto;
+    overflow-y: scroll;
+}

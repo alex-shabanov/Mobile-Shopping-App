@@ -1,0 +1,323 @@
+@CHARSET "ISO-8859-1";
+
+#updateItemForm {
+	margin-top: 20px;
+}
+
+#updateCategoryMenu {
+	margin-left: 210px;
+    margin-top: -33px;
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #5C7A99;
+    color: black;   
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#foundUpdateCategoryMenu {
+	margin-left: 203px;
+    margin-top: -33px;
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #5C7A99;
+    color: black;   
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+
+#updateCategoryText {
+	margin-left: 15px;
+}
+
+#updateItemTypeText {
+	margin-left: 15px;
+	margin-top: 13px;
+}
+
+#updateItemGeneralNameText {
+	margin-left: 15px;
+	margin-top: 13px;
+}
+#updateItemNameText {
+	margin-left: 15px;
+	margin-top: 13px;
+}
+
+#updateItemNumberText {
+	margin-left: 15px;
+	margin-top:15px;
+}
+
+#itemTypeUpdate {
+	width: 230px;
+    height: 30px;  
+    margin-left: 45px;
+    margin-top: 7px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#itemGeneralNameUpdate {
+	width: 230px;
+    height: 30px;  
+    margin-left: 45px;
+    margin-top: 7px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#itemNameUpdate {
+	width: 230px;
+    height: 30px;  
+    margin-left: 45px;
+    margin-top: 7px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#itemNameUpdate:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#itemNumberUpdate {
+	width: 230px;
+    height: 30px;  
+    margin-left: 45px;
+    margin-top: 5px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#itemNumberUpdate:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#viewItemBtn {
+	position: absolute; 
+	margin-left: 500px;
+    margin-top: -32px;
+    width: 200px;
+    height: 30px;   
+    background: #c2d6d6;
+    border: 3px solid;
+    border-radius: 7px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    color: black;   
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#updateProductForm {
+	margin-top: 20px;
+}
+
+#updateProduceDescrText {
+	margin-left: 15px;
+	margin-top:15px;
+}
+
+#updateProduceDetailsText {
+	margin-left: 15px;
+	margin-top:15px;
+}
+
+#updateProductQuantityText {
+	margin-left: 15px;
+	margin-top:15px;
+}
+
+#updateProductPriceText {
+	margin-left: 15px;
+	margin-top:15px;
+}
+
+#itemDescrUpdate {
+	width: 230px;
+    height: 30px;  
+    margin-left: 45px;
+    margin-top: 5px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+#itemDescrUpdate:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#itemDetailUpdate {
+	width: 230px;
+    height: 30px;  
+    margin-left: 45px;
+    margin-top: 5px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+#itemDetailUpdate:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#itemQuantityUpdate {
+	width: 230px;
+    height: 30px;  
+    margin-left: 45px;
+    margin-top: 5px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+#itemQuantityUpdate:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#itemPriceUpdate {
+	width: 230px;
+    height: 30px;  
+    margin-left: 45px;
+    margin-top: 5px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+#itemPriceUpdate:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#updateItemBtn {
+	position: absolute; 
+	margin-left: 204px;
+    margin-top: 10px;
+    width: 200px;
+    height: 35px;   
+    background: #c2d6d6;
+    border: 3px solid;
+    border-radius: 7px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    color: black;   
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#currentPicture {
+  margin-left: 400px;"
+  margin-top: 250px; 
+  float: left;
+}
+
+#currentImageText {
+	position: absolute;
+	margin-left: 187px;
+	margin-top: 200px;
+	font-style: oblique;
+	font-size: 20px;
+	font-weight: bold;
+	color: #00e600;
+}
+
+#myCurrentImage {
+	width: 172px; 
+	height: 172px;
+	margin-left: 170px;
+	margin-top: 240px;
+	position: absolute;
+	border: 8px solid #5d8989;
+	border-radius: 5px;
+}
+
+ul.updateGalary {
+	margin: 0;
+  	padding: 0;
+  	margin-left: 15px;
+    margin-top: 20px;
+  	white-space: nowrap;
+  	border: 8px solid #5d8989;
+  	border-radius: 5px;
+  	width: 500px;
+  	hight: 140px;
+  	overflow-x: auto;
+  	background-color: #ddd;
+}
+
+ul.updateGalary li {
+	display: inline;
+  	width: 100px;
+  	height: 100px;
+}
+
+#itemNotFoundWarning {
+	margin-top: 7px;
+	margin-left: 5px;
+	width: 30%;
+}
+
+#alertSuccess {
+	margin-top: 7px;
+	margin-left: 5px;
+	width: 25%;
+}
+
+#alertWarning {
+	margin-top: 7px;
+	margin-left: 5px;
+	width: 30%;
+}

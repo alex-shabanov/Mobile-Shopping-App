@@ -1,0 +1,555 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-image: url(../images/image5.jpg);
+}
+
+#nav {
+	left: 0%;
+    top: 0%;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: none;
+	display: table;
+	padding-left: 2%;
+    position: absolute;
+    width: 100%; 
+}
+
+#column2 {
+	left: -4px;
+	margin-top: 55px;
+	position: absolute; 
+	background-color: #486b6b;
+	width: 300px;
+	height: 100%;
+}
+
+#selectItemForm {
+	margin-top: 20px;
+}
+
+#column3 {
+	margin-left: 295px;
+	margin-top: 55px;
+	position: absolute; 
+	background-repeat: repeat-y;
+	height: 100%;
+	border-left: 7px solid #ffdc4d;
+}
+
+#addItemLink {
+	color: #ff6600;
+	position: absolute; 
+	margin-left: 50px;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+#addItemLink:hover {
+	text-decoration: underline;
+}
+
+#deleteItemLink {
+	color: #ff6600;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 60px;
+	text-decoration: none;
+}
+
+#deleteItemLink:hover {
+	text-decoration: underline;
+}
+
+#updateItemLink {
+	color: #ff6600;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 100px;
+	text-decoration: none;
+}
+
+#updateItemLink:hover {
+	text-decoration: underline;
+}
+
+#viewItemsLink {
+	color: #ff6600;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 140px;
+	text-decoration: none;
+}
+#viewItemsLink:hover {
+	text-decoration: underline;
+}
+
+#viewOrdersLink {
+	color: #ff6600;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 180px;
+	text-decoration: none;
+}
+
+#viewOrdersLink:hover {
+	text-decoration: underline;
+}
+
+#viewStatsLink {
+	color: #ff6600;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 220px;
+	text-decoration: none;
+}
+
+#viewStatsLink:hover {
+	text-decoration: underline;
+}
+
+#signoutLink {
+	text-decoration: none;
+}
+
+#signoutBtn {
+	margin-left: 50px;
+    margin-top: 250px;
+    width: 180px;
+    height: 35px;   
+    background: #c2d6d6;
+    border: 3px solid;
+    border-radius: 7px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    color: black;   
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+#dropDownMenu {
+	margin-left: 206px;
+    margin-top: -35px;
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #5C7A99;
+    color: black;   
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#choosePicBtn {  
+    margin-left: 394px;
+    margin-top: -15px;
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    background: #c2d6d6;
+    border: 3px solid;
+    border-radius: 7px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    color: black;   
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#myImage {
+	width: 172px; 
+	height: 172px;
+	visibility: hidden;
+	margin-left: 160px;
+	margin-top: -172px;
+	position: absolute;
+	border: 8px solid #5d8989;
+	border-radius: 5px;
+}
+
+#picture {
+	margin-left: 400px;"
+	margin-top: 100px; 
+	float: left;
+}
+
+ul.galary {
+	margin: 0;
+  	padding: 0;
+  	margin-left: 15px;
+    margin-top: 5px;
+  	white-space: nowrap;
+  	border: 8px solid #5d8989;
+  	border-radius: 5px;
+  	width: 500px;
+  	hight: 140px;
+  	overflow-x: auto;
+  	background-color: #ddd;
+}
+
+ul.galary li {
+	display: inline;
+  	width: 100px;
+  	height: 100px;
+}
+
+#addItemForm {
+	margin-top: 5px;
+}
+
+#productType {
+	width: 230px;
+    height: 30px;  
+    margin-left: 49px;
+    margin-top: -15px;
+    position: absolute;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#productType:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#productType:required:hover {
+  opacity: 1;
+}
+
+#productname {
+	width: 230px;
+    height: 30px;  
+    margin-left: 39px;
+    margin-top: -15px;
+    position: absolute;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#specificName {
+	width: 230px;
+    height: 30px;  
+    margin-left: 50px;
+    margin-top: 0px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#specificName:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#specificName:required:hover {
+  opacity: 1;
+}
+
+#itemNumber {
+	width: 230px;
+    height: 30px;  
+    margin-left: 50px;
+    margin-top: 0px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#itemNumber:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#itemNumber:required:hover {
+  opacity: 1;
+}
+
+#itemDescr {
+	width: 230px;
+    height: 30px;  
+    margin-left: 50px;
+    margin-top: 0px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#itemDescr:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#itemDescr:required:hover {
+  opacity: 1;
+}
+
+#itemDetail {
+	width: 230px;
+    height: 30px;  
+    margin-left: 50px;
+    margin-top: 0px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#itemDetail:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#itemDetail:required:hover {
+  opacity: 1;
+}
+
+#itemQuantity {
+	width: 230px;
+    height: 30px;  
+    margin-left: 50px;
+    margin-top: 0px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#itemQuantity:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#itemQuantity:required:hover {
+  opacity: 1;
+}
+
+#itemPrice {
+	width: 230px;
+    height: 30px;  
+    margin-left: 50px;
+    margin-top: 0px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#itemPrice:required {
+  box-shadow: 3px 3px 10px rgba(200, 0, 0, 0.85);
+}
+
+#itemPrice:required:hover {
+  opacity: 1;
+}
+
+#addItemBtn {
+	position: absolute; 
+	margin-left: 130px;
+    margin-top: -7px;
+    width: 180px;
+    height: 30px;   
+    background: #c2d6d6;
+    border: 3px solid;
+    border-radius: 7px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    color: black;   
+    font-size: 14px;
+    font-weight: 700;
+}
+
+div.absolute {
+	position: absolute; 
+   	top: -140px;
+    left: -338px;
+    width: 100%;
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    border: 5px solid #007f80;
+}
+
+div.alertdialog1 {
+	line-height: 50px;
+	background-color: #2eb82e;
+}
+
+div.alertdialog2 {
+	line-height: 50px;
+	background-color: #ffd11a;
+}
+
+#alertSuccess {
+	margin-top: 7px;
+	margin-left: 5px;
+	width: 25%;
+}
+
+#alertWarning {
+	margin-top: 7px;
+	margin-left: 5px;
+	width: 30%;
+}
+
+#alertInfo {
+	margin-top: 7px;
+	margin-left: 5px;
+	width: 30%;
+}
+
+#deleteItemForm {
+	margin-top: 20px;
+}
+
+#deltemCategoryText {
+	margin-left: 15px;
+}
+#delItemNameText {
+	margin-left: 15px;
+	margin-top: 13px;
+}
+#delItemNumberText {
+	margin-left: 15px;
+	margin-top:15px;
+}
+
+#deleteCategoryMenu {
+	margin-left: 195px;
+    margin-top: -33px;
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #5C7A99;
+    color: black;   
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+#deleteItemName {
+	width: 230px;
+    height: 30px;  
+    margin-left: 25px;
+    margin-top: 7px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#deleteItemNumber {
+	width: 230px;
+    height: 30px;  
+    margin-left: 25px;
+    margin-top: 5px;
+	background: white;
+    border: 3px solid;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+#deleteItemBtn {
+	position: absolute; 
+	margin-left: 195px;
+    margin-top: 10px;
+    width: 200px;
+    height: 35px;   
+    background: #c2d6d6;
+    border: 3px solid;
+    border-radius: 7px;
+    border-style: solid;
+    border-color:  #5C7A99;
+    color: black;   
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#addItemCategoryText {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+#addItemProductTypeNameText {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+#addGeneralNameText {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+#addItemSpecificNameText {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+#addItemProductNameText {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+#addItemProductDescrText {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+#addItemProductDetailText {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+#addItemProductQuantityText {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+#addItemProductPriceText {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
