@@ -1,0 +1,45 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/LightSlateGray</item>
+        <item name="colorPrimaryDark">@color/Teal</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyCustomToolBarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/RoyalBlue</item>
+        <item name="android:textColorSecondary">@color/RoyalBlue</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ButtonFontStyle">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="dialogButtonsFontStyle">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="viewItemButtonFontStyle">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="registerButtonFontStyle">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="signInButtonFontStyle">
+        <item name="android:textSize" android:color="#32CD32">15sp</item>
+    </style>
+</resources>

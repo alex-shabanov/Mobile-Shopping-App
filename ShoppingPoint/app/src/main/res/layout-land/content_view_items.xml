@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.shoppingpoint.ViewItems"
+    tools:showIn="@layout/activity_view_items">
+
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:id="@+id/onlineStatusSpinner"
+        android:background="@drawable/button_shape2"
+        android:entries="@array/product_category"
+        android:prompt="@string/item_category"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:id="@+id/item_name_editText"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/DarkOrange"
+        android:hint="@string/item_name"
+        android:textColorHint="@color/Orange"
+        android:layout_below="@+id/onlineStatusSpinner"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="@string/view_items"
+        android:id="@+id/view_items_button"
+        android:background="@drawable/button_shape5"
+        android:onClick="getProductItems"
+        android:layout_marginTop="45dp"
+        android:layout_alignEnd="@+id/productItemsListView"
+        android:layout_marginEnd="69dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/productItemsListView"
+        android:layout_marginTop="90dp" />
+
+</RelativeLayout>

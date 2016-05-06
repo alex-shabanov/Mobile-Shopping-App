@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/textView"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="65dp"
+        android:textSize="20dp"
+        android:text="@string/check_out_dialog_title"
+        android:textColor="@color/DarkOrange" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/nameEditText"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/DarkOrange"
+        android:hint="@string/credit_card_name_hint"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/creditCartNumberEditText"
+        android:layout_marginTop="85dp"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/DarkOrange"
+        android:hint="@string/credit_card_number_hint"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/creditCardExpiryDateText"
+        android:layout_marginTop="130dp"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/DarkOrange"
+        android:hint="@string/card_expiry_date_hint"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/cvvNumberEditText"
+        android:layout_marginTop="175dp"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/DarkOrange"
+        android:hint="@string/credit_card_cvv_number_hint"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:id="@+id/credit_card_radio_group"
+        android:layout_marginTop="230dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/visa_card"
+            android:textSize="20dp"
+            android:textColor="@color/DarkOrange"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/visaRadioButton" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/master_card"
+            android:textSize="20dp"
+            android:textColor="@color/DarkOrange"
+            android:layout_marginTop="-33dp"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/masterCardRadioButton" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/totalAmountTextView"
+        android:layout_marginTop="275dp"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:text="@string/total_amount_charged"
+        android:textColor="@color/DarkOrange" />
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="35dp"
+        android:id="@+id/check_out_button"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="0dp"
+        android:text="@string/customer_check_out"
+        android:background="@drawable/button_shape9" />
+
+    <Button
+        android:layout_width="145dp"
+        android:layout_height="35dp"
+        android:id="@+id/check_out_cancel_button"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="145dp"
+        android:text="@string/cancel_button_title"
+        android:background="@drawable/button_shape9" />
+
+</RelativeLayout>

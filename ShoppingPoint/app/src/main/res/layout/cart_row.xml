@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="3dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/usericon11"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/delete_from_cart"
+        android:textSize="12sp"
+        android:id="@+id/removeProductButton"
+        android:background="@drawable/button_shape5"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView"
+        android:gravity="bottom"
+        android:textSize="17dp"
+        android:paddingLeft="15dp"
+        android:textColor="@color/teal"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView2"
+        android:gravity="bottom"
+        android:textSize="17dp"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView3"
+        android:gravity="bottom"
+        android:textSize="17dp"
+        android:paddingLeft="15dp"
+        android:textColor="@color/teal"
+        android:layout_below="@+id/textView2"
+        android:layout_toEndOf="@+id/imageView" />
+
+</RelativeLayout>
